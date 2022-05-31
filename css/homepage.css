@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+body {
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.80857;
+}
+
+html, body{
+	height: 100%;
+}
+.main-banner{
+    height: 100%;
+	position: relative;
+	display: table;
+    width: 100%;
+    background-size: contain ;
+	text-align: center;
+    background: url('/img/home-page.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.main-banner::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 0;
+    opacity: .6;
+}
+
+.heading{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	z-index:1;
+}
+.heading h1{
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 45px;
+    letter-spacing: 6px;
+	text-transform: uppercase;
+}
+.heading p{
+	font-size: 18px;
+	padding: 20px 0px;
+}
+
+.btn-outline-warning {
+    align-items: center;
+    color: #35809c;
+    border-color: white ;
+}
+.btn-outline-success:hover {
+    background-color:dodgerblue;
+    color: white;
+   
+}
+
+.btn-outline-success:ac {
+    background-color:dodgerblue;
+    color: white;
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.Login-page{
+    display: none;
+}
+
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.text-muted {
+    color: white!important;
+}
