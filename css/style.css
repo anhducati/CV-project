@@ -42,3 +42,6 @@ img, svg {
     background-size: cover;
     background-position: 50%;
 } 
+.nav-item + .nav-item {
+    margin-left: 1rem;
+}
