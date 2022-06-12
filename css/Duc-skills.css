@@ -1,0 +1,55 @@
+*{
+        box-sizing: border-box;
+      }
+      
+      .skills-container {
+        width: 100%;
+        background-color: hsla(0, 7%, 39%, 0.316);
+      }
+      
+      .skills {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgb(17, 2, 2);
+      }
+      
+      .html {
+        width: 80%;
+        background-color: #122aad;
+      }
+      
+      .css {
+        width: 60%;
+        background-color: #d214d8;
+      }
+      
+      .js {
+        width: 25%;
+        background-color: #1cab1f;
+      }
+      
+      .Bootstrap {
+        width: 75%;
+        background-color: #b49e34;
+      }
+      
+      .Photoshop {
+        width: 35%;
+        background-color: #122aad;
+      }
+      
+      .Illustrator {
+        width: 35%;
+        background-color: #d214d8;
+      }
+      
+      .Blender {
+        width: 35%;
+        background-color: #1cab1f;
+      }
+      
+      .Canva {
+        width: 80%;
+        background-color: #b49e34;
+}
