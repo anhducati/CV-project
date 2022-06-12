@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV_Nguyen Manh Hung</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"> 
+    <link rel="stylesheet" href="/css/bootstrap5.2.0.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 <body>
@@ -31,38 +36,80 @@
     <!-- start main -->
     <main class="page landing-page" style="font-family: Roboto, sans-serif;color: #4f4f4f;box-shadow: 0px 0px;">
     <!-- Start head -->
-    <section class="clean-block clean-hero " style="background-image: url(/img/image-head.jpg);color: rgba(36, 42, 46, 0.85);font-family: Roboto, sans-serif;margin: 0px 15%;box-shadow: 2px 5px 10px;">
-        <div class="text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12"><img src="/img/cvHung.jpg" style="height: 165px;width: 165px;margin: 15px;"></div>
-                </div>
-            </div>  
-            <h2 data-aos="zoom-in" data-aos-duration="950" style="margin: 0px;">Nguyen Manh Hung</h2>
-            <p data-aos="zoom-in" data-aos-duration="950" style="font-size: 15px;">Thuy Loi University Student<br></p>
-            <a href="https://www.facebook.com/hung.279"><i class="fa fa-facebook-square" data-aos="zoom-in" data-aos-duration="950" style="padding: 10px;font-size: 27px;"></i></a>
-            <a href="https://www.instagram.com/hungmanh.279/"><i class="fa fa-instagram" data-aos="zoom-in" data-aos-duration="950" style="padding: 10px;font-size: 27px;"></i></a>
-            <p></p><button class="btn btn-outline-light btn-lg" data-aos="fade-up" data-aos-duration="950" type="button" style="background: var(--bs-info);">Hire Me</button>
-        </div>
-    </section>
-    <!-- End head -->
-    <!-- start about -->
-    <section class="clean-block clean-info dark bg-white" id="About" style="font-family: Roboto, sans-serif;margin: 5% 15%;box-shadow: 2px 5px 10px;height: 280.141px;">
-        <div class="container" style="padding: 3.5%;">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>About me</h3>
-                    <p class="text-start">Hello! I'm Nguyen Manh Hung member of group 18. A student at Thuy Loi University, majoring in&nbsp;<strong>Information Technology</strong>&nbsp;and have knowledge about Blender and Canva, Photoshop,..<br></p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Bio</h3>
-                    <p class="text-start"><i class="fa fa-calendar"></i><strong>&nbsp; Age&nbsp;</strong>:&nbsp;21<br><i class="fa fa-envelope-o"></i><strong>&nbsp; Email</strong>&nbsp;: hungmanhbtre279@gmail.com<br><i class="fa fa-phone"></i><strong>&nbsp; Phone</strong>&nbsp;: 08.666.923.82<br><i class="fa fa-map-marker"></i><strong>&nbsp; Address</strong>&nbsp;: Phuc Yen, VinhPhuc, Viet Nam&nbsp;<br></p>
+     <div class="container">
+        <div class="shadow-1-strong bg-white my-5 p-5" id="intro">
+            <div class="bg-info text-white">
+                <div class="cover bg-image">
+
+                    <img src="/img/image-head.jpg" alt="">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+                        <div class="text-center p-5">
+                            <div class="avatar p-1">
+                                <img class="img-thumbnail shadow-2-strong" src="/img/cvHung.jpg" alt=""
+                                    style="width: 160px;height: 160px;">
+                            </div>
+                            <div class="header-bio mt-3" data-aos="zoom-in" data-aos-delay="0">
+                                <div>
+                                    <h2> Nguyen Manh Hung</h2>
+                                    <p>Deverloper Full Stack</p>
+                                </div>
+                                <div class="footer-nav">
+                                    <nav>
+                                        <ul class="nav justify-content-center">
+                                            <li class="nav-item">
+                                                <a class="nav-link"
+                                                    href="https://www.facebook.com/hung.279/"target="_blank"><i
+                                                        class="fa-brands fa-facebook"></i> </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="https://www.instagram.com/hungmanh279/"target="_blank"><i
+                                                        class="fa-brands fa-instagram"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="https://github.com/hung279"target="_blank"><i
+                                                        class="fa-brands fa-github-square"></i></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
+                                        href="" data-aos="fade-right" data-aos-delay="700">Download
+                                        CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact"
+                                        data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    <!-- End head -->
+    <!-- start about -->
+    <div class="shadow-1-strong bg-white my-5 p-5" id="about" >
+        <section class="row" id="About" >
+            <div class="container" style="padding: 3.5%;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>About me</h3>
+                        <p class="text-start">Hello! I'm Nguyen Manh Hung member of group 18. A student at Thuy Loi University, majoring in</pr> &nbsp;<strong>Information Technology</strong>&nbsp;and have knowledge about Blender and Canva, Photoshop,..</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Bio</h3>
+                        <p class="text-start"><i class="fa fa-calendar"></i><strong>&nbsp; Age&nbsp;</strong>:&nbsp;21<br><i class="fa fa-envelope-o"></i><strong>&nbsp;Email</strong>&nbsp;:hungmanhbtre279@gmail.com<br><i class="fa fa-phone"></i><strong>&nbsp; Phone</strong>&nbsp;: 08.666.923.82<br><i class="fa fa-map-marker"></i><strong>&nbsp; Address</strong>&nbsp;: Phuc Yen, VinhPhuc, Viet Nam&nbsp;<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+   
     <!--end about -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>      
+     <script src="/js/aso.js"></script>
+     <script>
+        AOS.init();
+    </script>
+   
 </body>
 </html>
