@@ -15,41 +15,41 @@
       }
       
       .html {
-        width: 80%;
+        width: 60%;
         background-color: #122aad;
       }
       
       .css {
-        width: 60%;
+        width: 40%;
         background-color: #d214d8;
       }
       
       .js {
-        width: 25%;
+        width: 20%;
         background-color: #1cab1f;
       }
       
       .Bootstrap {
-        width: 75%;
+        width: 50%;
         background-color: #b49e34;
       }
       
       .Photoshop {
-        width: 35%;
+        width: 20%;
         background-color: #122aad;
       }
       
       .Illustrator {
-        width: 35%;
+        width: 20%;
         background-color: #d214d8;
       }
       
-      .Blender {
-        width: 35%;
+      .Design {
+        width: 30%;
         background-color: #1cab1f;
       }
       
       .Canva {
-        width: 80%;
+        width: 50%;
         background-color: #b49e34;
 }
