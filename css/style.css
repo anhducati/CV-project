@@ -69,8 +69,34 @@ img, svg {
     box-sizing: border-box;
 }
 .timeline-card-success:before {
-    border-color: #00b74a;
+    border-color: #20c997;
 }
 .timeline-body {
     border-left: 2px solid #E6E9ED;
 }
+.text-teal {
+    color: #20c997;
+  }
+  
+@media (max-width: 767px){
+.portfolio-reverse {
+    flex-direction: column-reverse;
+}
+}
+.g-0, .gy-0 {
+    --bs-gutter-y: 0;
+}
+.g-0, .gx-0 {
+    --bs-gutter-x: 0;
+}
+.anot{
+    color: inherit;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+    cursor: pointer;
+}
+#footer {
+    height: 50px;  
+    padding: auto; 
+   
+  }
