@@ -45,6 +45,9 @@ img, svg {
 .nav-item + .nav-item {
     margin-left: 1rem;
 }
+.bg-secondary {
+    background-color: #b23cfd!important;
+}
 .timeline-card {
     position: relative;
     margin-left: 16px;
@@ -74,10 +77,11 @@ img, svg {
 .timeline-body {
     border-left: 2px solid #E6E9ED;
 }
+
 .text-teal {
     color: #20c997;
   }
-  
+
 @media (max-width: 767px){
 .portfolio-reverse {
     flex-direction: column-reverse;

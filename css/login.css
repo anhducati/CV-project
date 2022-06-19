@@ -22,7 +22,7 @@ img{
 .wrap-tbl {
     display: table;
     width: 400px;
-    height: 200px;
+    height: 220px;
     background-color: #ffe6cc;
     border: solid 1px lightgray;
   }
@@ -34,7 +34,7 @@ img{
   img {
     display: block;
     max-width:300px;
-    max-height:250px;
+    max-height:200px;
     width: auto;
     height: auto;
   } 
