@@ -39,7 +39,7 @@ email.addEventListener("blur", function () {
     if (rexEmail.test(email.value)) {
         loginError.innerHTML = "";
     } else {
-        loginError.innerHTML = "Email không hợp lệ";
+        loginError.innerHTML = " Invalid email";
     }
 })
 
@@ -54,10 +54,12 @@ function Login() {
             window.location.href = "/html/CVQuocAnh.html";
             
         } else {
-            window.location.href = "/html/homepage.html";
+             window.location.href = "/html/homepage.html";
+            
         }
     } else {
-        loginError.innerHTML = "Tài khoản hoặc mật khẩu không đúng";
+        alert(" Incorrect username or password.");
+        loginError.innerHTML = " Incorrect username or password.";
     }
 }
 

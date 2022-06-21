@@ -38,7 +38,7 @@ html, body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: rgba(18, 17, 17, 0.747);
     z-index: 0;
     opacity: .6;
 }

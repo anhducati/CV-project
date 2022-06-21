@@ -14,7 +14,7 @@ img{
     width: 100%;
     background-size: contain ;
 	/* text-align: center; */
-    background: url('/img/home-page.jpg') no-repeat center center fixed; 
+    background: url('/img/background_login.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     background-size: cover;
 
@@ -54,4 +54,9 @@ img{
     display: block;
     /* text-align: center; */
     margin: 0 auto;
+}
+.registerError{
+    font-size: 12px;
+    color: #f34624;
+   
 }
