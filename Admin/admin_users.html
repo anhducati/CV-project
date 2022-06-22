@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="/group-18/Admin/admin.css">
+	<title>User</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bi bi-inboxes-fill'></i>
+			<span class="text">Admin</span>
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="/index.html">
+					<i class='bi bi-person-bounding-box' ></i>
+					<span class="text">Admin Management</span>
+				</a>
+			</li>			
+            <li class="active">
+				<a href="/index2.html">
+					<i class='bi bi-bookmark-star-fill' ></i>
+					<span class="text">Users Management</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#" class="logout">
+					<i class='bi bi-box-arrow-left' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bi bi-list' ></i>
+			<a href="#" class="nav-link"></a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bi bi-search' ></i></button>
+				</div>
+			</form>
+			<a href="#" class="notification">
+				<i class='bi bi-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="/group-18/img/anhCVduc.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+            <div class="container">
+
+                <h1 class="text-center">Users Management</h1>
+                <form onsubmit="create_user()" name="userForm">
+                  <div class="form-group">
+                    <input class="form-control m3" type="text" name="id" autocomplete="off" value="ID" disabled>
+            
+                    <input class="form-control m3" type="text" name="username" placeholder="username" autocomplete="off">
+                    <input class="form-control m3" type="email" name="email" placeholder="email" autocomplete="off">
+                    <input class="form-control m3" type="text" name="password" placeholder="password" autocomplete="off">
+                    <div class="d-flex justify-content-center">
+                      <button type="submit" id="create" class="btn btn-success">Add</button>
+                      <button type="button" id="read" class="btn btn-info" onclick="read_data()">Read</button>
+                      <button id="update" class="btn btn-warning" onclick="update_user()" type="button">Update</button>
+                      <button id="delete" type="button" class="btn btn-danger" onclick="delete_all()">Delete</button>
+                    </div>
+                  </div>
+                </form>
+            
+                <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th>#</th>
+                      <th>Username</th>
+                      <th>Email</th>
+                      <th>Password</th>
+                      <th>Edit</th>
+                      <th>Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody id="data">
+            
+                  </tbody>
+                </table>
+            
+              </div>
+
+			
+			
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/group-18/Admin/fontawsom.js"></script>
+    <script src="/group-18/Admin/user.js"></script>
+
+</body>
+</html>
