@@ -51,7 +51,7 @@ function Login() {
     var user = check_user(username, password, users);
     if (user) {
         if (user.permissions == "admin") {
-            window.location.href = "/html/CVQuocAnh.html";
+            window.location.href = "/Admin/admin.html";
             
         } else {
              window.location.href = "/html/homepage.html";
