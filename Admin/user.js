@@ -61,8 +61,8 @@ function create_user() {
 
     cell0.innerHTML = id;
     cell1.innerHTML = username;
-    cell2.innerHTML = password;
-    cell3.innerHTML = email;
+    cell2.innerHTML = email;
+    cell3.innerHTML = password;
     cell4.innerHTML = '<i class="fas fa-edit"></i>';
     cell5.innerHTML = `<span onclick="delete_user(this)"><i class="fas fa-trash"></i><span>`;
 
