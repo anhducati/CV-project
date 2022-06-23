@@ -54,7 +54,7 @@ function Login() {
             window.location.href = "/Admin/admin.html";
             
         } else {
-             window.location.href = "/html/homepage.html";
+             window.location.href = "/Guest/about.html";
             
         }
     } else {
