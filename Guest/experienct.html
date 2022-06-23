@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="/Guest/guest.css">
+	<title>Guest</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bi bi-inboxes-fill'></i>
+			<span class="text">Guest</span>
+		</a>
+		<ul class="side-menu top">
+			 <li>
+				<a href="/Guest/about.html">
+					<i class='bi bi-person-bounding-box' ></i>
+					<span class="text">About</span>
+				</a>
+			</li>			
+           <li>
+				<a href="/Guest/skill.html">
+					<i class='bi bi-bookmark-star-fill' ></i>
+					<span class="text">Skill</span>
+				</a>
+			</li>
+			<li  class="active">
+				<a href="/Guest/experienct.html">
+					<i class='bi bi-boxes' ></i>
+					<span class="text">Experienct</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Guest/education.html">
+					<i class='bi bi-mortarboard-fill' ></i>
+					<span class="text">Education</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Guest/portfolio.html">
+					<i class='bi bi-robot' ></i>
+					<span class="text">Portfolio</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Guest/refrences.html">
+					<i class='bi bi-people' ></i>
+					<span class="text">References</span>
+				</a>
+			</li>
+			<li>
+				<a href="/Guest/contact.html">
+					<i class='bi bi-person-lines-fill' ></i>
+					<span class="text">Contact</span>
+				</a>
+			</li>
+            <li>
+                <a href="#">
+                    <i class='bi bi-plus-square' ></i>
+                    <span class="text">Add</span>
+                </a>
+            </li>
+		</ul>
+       
+
+		<ul class="side-menu">
+			<li>
+				<a href="/html/homepage.html" class="logout">
+					<i class='bi bi-box-arrow-left' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bi bi-list' ></i>
+			<a href="#" class="nav-link"></a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bi bi-search' ></i></button>
+				</div>
+			</form>
+			<a href="#" class="notification">
+				<i class='bi bi-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="/img/anhdd.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="container">
+
+				<h1 class="text-center">Work Experience</h1>
+				<form onsubmit="create_user()" name="userForm">
+				  <div class="form-group">			
+					<input class="form-control m3" type="text" name="content" placeholder="Workplace" autocomplete="off">
+					<input class="form-control m3" type="nd" name="content1" placeholder="time" autocomplete="off">
+					<input class="form-control m3" type="text" name="content2" placeholder="note" autocomplete="off">
+					<div class="d-flex justify-content-center">
+					  <button type="submit" id="create" class="btn btn-success">Add</button>
+					  <button type="button" id="read" class="btn btn-info" onclick="read_data()">Read</button>
+					  <button id="update" class="btn btn-warning" onclick="update_user()" type="button">Update</button>
+					  <button id="delete" type="button" class="btn btn-danger" onclick="delete_all()">Delete</button>
+					</div>
+				  </div>
+				</form>
+			
+				<table class="table">
+				  <thead class="thead-dark">
+					<tr>
+					  <th>Workplace</th>
+					  <th>time</th>
+					  <th>Note</th>
+					  <th>Edit</th>
+					  <th>Delete</th>
+					</tr>
+				  </thead>
+				  <tbody id="data">
+			
+				  </tbody>
+				</table>
+			
+			  </div>
+		</main>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/Admin/fontawsom.js"></script>
+    <script src="/Guest/guest.js"></script>
+
+</body>
+</html>
